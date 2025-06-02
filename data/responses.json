@@ -1,0 +1,52 @@
+{
+    "opciones": [
+      {
+        "label": "Saludar",
+        "keywords": ["hola", "saludo", "buenos dias", "buenas tardes"],
+        "responses": [
+          "¡Hola! ¿En qué puedo ayudarte hoy?",
+          "¡Qué gusto verte! ¿Cómo puedo asistirte?",
+          "¡Saludos! Dime, ¿qué necesitas?"
+        ]
+      },
+      {
+        "label": "Horario de Atención",
+        "keywords": ["horario", "horas", "abierto", "cerrado"],
+        "responses": [
+          "Nuestro horario de atención es de lunes a viernes, de 9 AM a 6 PM.",
+          "Estamos disponibles de lunes a viernes, de 9:00 a 18:00."
+        ]
+      },
+      {
+        "label": "Información de Contacto",
+        "keywords": ["contacto", "telefono", "email", "correo"],
+        "responses": [
+          "Puedes contactarnos al 123-456-7890 o enviar un correo a info@example.com.",
+          "Nuestro número es 123-456-7890. También puedes escribirnos a info@example.com."
+        ]
+      },
+      {
+        "label": "Agradecimiento",
+        "keywords": ["gracias", "agradezco", "chevere"],
+        "responses": [
+          "De nada, ¡es un placer ayudarte!",
+          "Siempre a tu disposición.",
+          "¡Con gusto!"
+        ]
+      },
+      {
+        "label": "Despedirse",
+        "keywords": ["adios", "chau", "despedida", "hasta luego"],
+        "responses": [
+          "¡Adiós! Que tengas un excelente día.",
+          "¡Hasta luego! Vuelve pronto.",
+          "¡Nos vemos!"
+        ]
+      }
+    ],
+    "default_responses": [
+      "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o seleccionar una opción?",
+      "No estoy seguro de cómo responder a eso. Intenta preguntar de otra manera o elige una opción.",
+      "Hmm, no tengo una respuesta para eso en este momento. ¿Hay algo más en lo que pueda ayudarte?"
+    ]
+  }

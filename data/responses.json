@@ -2,51 +2,257 @@
     "opciones": [
       {
         "label": "Saludar",
-        "keywords": ["hola", "saludo", "buenos dias", "buenas tardes"],
+        "keywords": [
+          "hola", "saludo", "buenos dias", "buenas tardes", "buenas noches", "hay alguien ahi", "saludos",
+          "buenos días", "buenas tardes", "buenas noches"
+        ],
         "responses": [
-          "¡Hola! ¿En qué puedo ayudarte hoy?",
-          "¡Qué gusto verte! ¿Cómo puedo asistirte?",
-          "¡Saludos! Dime, ¿qué necesitas?"
+          "¡Hola! 👋 Bienvenido a El Pavo Mio, tu charcutería de confianza.",
+          "¡Saludos! 🥳 ¿En qué puedo ayudarte hoy en El Pavo Mio?",
+          "¡Bienvenido a El Pavo Mio! 🦃 ¿Qué deseas saber?",
+          "¡Hola! ¿Buscas algún producto especial hoy?",
+          "¡Qué gusto saludarte! ¿Te ayudo a elegir tu charcutería favorita?"
         ]
       },
       {
         "label": "Horario de Atención",
-        "keywords": ["horario", "horas", "abierto", "cerrado"],
+        "keywords": [
+          "horario", "horas", "abierto", "cerrado", "a que hora abren", "a que hora cierran", "trabajan los domingos", "estan abiertos hoy",
+          "a qué hora abren", "a qué hora cierran", "están abiertos hoy"
+        ],
         "responses": [
-          "Nuestro horario de atención es de lunes a viernes, de 9 AM a 6 PM.",
-          "Estamos disponibles de lunes a viernes, de 9:00 a 18:00."
+          "Nuestro horario es de lunes a sábado de 8:00 am a 6:00 pm 🕗. Los domingos abrimos de 9:00 am a 2:00 pm.",
+          "Abrimos de lunes a sábado de 8:00 am a 6:00 pm y domingos de 9:00 am a 2:00 pm. ¡Te esperamos! 🦃",
+          "Puedes visitarnos casi toda la semana, ¡te esperamos con productos frescos!",
+          "¿Quieres saber si estamos abiertos hoy? ¡Sí! Ven a visitarnos."
         ]
       },
       {
         "label": "Información de Contacto",
-        "keywords": ["contacto", "telefono", "email", "correo"],
+        "keywords": [
+          "contacto", "telefono", "email", "correo", "whatsapp",
+          "teléfono", "correo electrónico"
+        ],
         "responses": [
-          "Puedes contactarnos al 123-456-7890 o enviar un correo a info@example.com.",
-          "Nuestro número es 123-456-7890. También puedes escribirnos a info@example.com."
+          "Puedes contactarnos al 0412-1234567 o escribirnos por WhatsApp. 📱",
+          "Nuestro número es 0412-1234567. También puedes escribirnos a elpavomio@gmail.com. ✉️",
+          "¡Estamos en WhatsApp para cualquier consulta! 0412-1234567",
+          "¿Prefieres escribirnos? Usa elpavomio@gmail.com"
+        ]
+      },
+      {
+        "label": "Ubicación",
+        "keywords": [
+          "ubicacion", "direccion", "donde estan", "como llego", "sucursal",
+          "ubicación", "dirección", "dónde están", "cómo llego"
+        ],
+        "responses": [
+          "Estamos en la Av. Principal de Los Teques, frente a la Plaza Bolívar 🗺️. ¡Ven y visítanos!",
+          "Nuestra dirección es: Av. Principal de Los Teques, local 12, frente a la Plaza Bolívar. 📍",
+          "¿Buscas cómo llegar? Pregunta por El Pavo Mio en la Plaza Bolívar.",
+          "¡Te esperamos en Los Teques, fácil de ubicar!"
+        ]
+      },
+      {
+        "label": "Métodos de Pago",
+        "keywords": [
+          "pago", "metodos de pago", "punto", "pago movil", "dolares", "efectivo", "tarjeta",
+          "métodos de pago", "pago móvil", "dólares"
+        ],
+        "responses": [
+          "Aceptamos efectivo, punto de venta, pago móvil y dólares 💳💵. ¡Tú eliges cómo pagar!",
+          "Puedes pagar con efectivo, tarjeta, pago móvil y también aceptamos divisas. 🤑",
+          "¡No te preocupes por el pago! Tenemos varias opciones para ti.",
+          "¿Prefieres pago móvil? ¡También lo aceptamos!"
+        ]
+      },
+      {
+        "label": "Productos",
+        "keywords": [
+          "productos", "embutidos", "productos frescos", "que hay hoy",
+          "qué hay hoy", "que tienen hoy"
+        ],
+        "responses": [
+          "En El Pavo Mio tenemos jamón, queso, mortadela, salchichón, chorizo, salami, queso de mano, queso llanero y mucho más 🧀🥓. ¡Pregunta por nuestras ofertas del día!",
+          "Ofrecemos una gran variedad de embutidos y quesos venezolanos 🇻🇪. ¿Buscas algo en especial?",
+          "¡Claro! Tenemos jamón de pavo, mortadela, queso de mano, queso llanero, salchichón, chorizo y más. 🦃🧀",
+          "¿Te gustaría saber los productos frescos de hoy? ¡Pregúntame por nuestras especialidades!",
+          "Tenemos combos especiales de jamón y queso, además de productos frescos todos los días."
+        ]
+      },
+      {
+        "label": "Delivery",
+        "keywords": [
+          "delivery", "domicilio", "servicio a domicilio", "llevar pedido", "pido delivery", "cuanto cuesta delivery",
+          "cuánto cuesta delivery"
+        ],
+        "responses": [
+          "¡Sí! Ofrecemos delivery en Los Teques y zonas cercanas 🚚. El costo es desde $2 según tu ubicación.",
+          "Puedes pedir tu delivery llamando o escribiendo por WhatsApp al 0412-1234567 📲. ¡Te lo llevamos a la puerta de tu casa!",
+          "¿Quieres recibir tu pedido en casa? ¡Pregunta por nuestro servicio de delivery! El precio varía según la distancia.",
+          "El costo del delivery depende de tu ubicación, pero comienza en $2."
+        ]
+      },
+      {
+        "label": "Ofertas",
+        "keywords": [
+          "ofertas", "promociones", "descuento", "ofertas del dia", "combos",
+          "ofertas del día"
+        ],
+        "responses": [
+          "¡Sí! Hoy tenemos combo de 500g de jamón y 500g de queso a solo $8 🧀🥓.",
+          "Tenemos descuentos en mortadela y salchichón: 1kg de mortadela a $4 y 1kg de salchichón a $5. ¡Aprovecha nuestras ofertas! 🎉",
+          "¿Buscas promociones? ¡Pregunta por los combos del día! Por ejemplo, combo familiar de 1kg de queso y 1kg de jamón por $15.",
+          "¡No te pierdas nuestras ofertas semanales en embutidos y quesos! Pregunta por el producto en promoción."
         ]
       },
       {
         "label": "Agradecimiento",
-        "keywords": ["gracias", "agradezco", "chevere"],
+        "keywords": [
+          "gracias", "agradezco", "chevere", "muchas gracias", "chévere"
+        ],
         "responses": [
+          "¡Gracias por preferirnos! 🦃 Te esperamos pronto en El Pavo Mio.",
+          "¡Con gusto! Siempre a tu disposición. 😊",
           "De nada, ¡es un placer ayudarte!",
-          "Siempre a tu disposición.",
-          "¡Con gusto!"
+          "¡Gracias a ti por confiar en nosotros!"
         ]
       },
       {
         "label": "Despedirse",
-        "keywords": ["adios", "chau", "despedida", "hasta luego"],
+        "keywords": [
+          "adios", "chau", "despedida", "hasta luego", "nos vemos", "adiós"
+        ],
         "responses": [
-          "¡Adiós! Que tengas un excelente día.",
+          "¡Adiós! Que tengas un excelente día. 😊",
           "¡Hasta luego! Vuelve pronto.",
-          "¡Nos vemos!"
+          "¡Chao! Recuerda que en El Pavo Mio siempre hay calidad y frescura. 🧀",
+          "¡Nos vemos! Que disfrutes tus compras."
+        ]
+      },
+      {
+        "label": "Reservar Pedido",
+        "keywords": [
+          "reservar", "puedo reservar", "quiero reservar", "reservar pedido", "apartado", "puedo apartar"
+        ],
+        "responses": [
+          "¡Por supuesto! Puedes reservar tu pedido y pasar a retirarlo cuando gustes.",
+          "Solo dinos qué productos deseas reservar y los apartamos para ti.",
+          "¿Quieres reservar algo especial? ¡Déjame saber los productos y lo preparamos!"
+        ]
+      },
+      {
+        "label": "Precios",
+        "keywords": [
+          "precio", "precios", "cuanto cuesta", "cuánto cuesta", "lista de precios", "tarifas"
+        ],
+        "responses": [
+          "Nuestros precios varían según el producto. Por ejemplo: Jamón de pavo $8/kg, Queso llanero $7/kg, Mortadela $4/kg.",
+          "Pregunta por el precio del producto que te interesa y te lo informo. Ejemplo: Salchichón $5/kg, Queso de mano $8/kg.",
+          "¡Tenemos precios competitivos! Dime qué producto te interesa y te digo el precio actualizado.",
+          "Puedes consultar la lista de precios actualizada en tienda o por WhatsApp."
+        ]
+      },
+      {
+        "label": "Pedidos Grandes",
+        "keywords": [
+          "pedido grande", "puedo pedir mucho", "mayorista", "descuento por cantidad", "comprar al mayor"
+        ],
+        "responses": [
+          "¡Sí! Hacemos descuentos por compras grandes o al mayor. Por ejemplo, a partir de 5kg de cualquier producto tienes 10% de descuento.",
+          "Si necesitas un pedido grande, avísanos con tiempo y te preparamos todo. ¡Precios especiales para mayoristas!",
+          "¿Compras al mayor? ¡Pregunta por nuestras tarifas especiales y descuentos por volumen!"
+        ]
+      },
+      {
+        "label": "Recomendaciones",
+        "keywords": [
+          "que me recomiendas", "qué me recomiendas", "recomendacion", "recomendación", "sugerencia", "que sugieres", "qué sugieres"
+        ],
+        "responses": [
+          "Te recomiendo probar nuestro jamón de pavo ($8/kg) y el queso llanero ($7/kg), ¡son los favoritos de nuestros clientes!",
+          "Si buscas algo especial, el combo de chorizo ($6/kg) y queso de mano ($8/kg) es excelente.",
+          "¿Te gustan los sabores tradicionales? Prueba nuestra mortadela artesanal ($4/kg)."
+        ]
+      },
+      {
+        "label": "Jamón de Pavo",
+        "keywords": [
+          "jamon de pavo", "precio jamon de pavo", "cuanto cuesta el jamon de pavo", "descripción jamon de pavo",
+          "jamón de pavo", "precio jamón de pavo", "cuánto cuesta el jamón de pavo", "descripcion jamon de pavo"
+        ],
+        "responses": [
+          "El jamón de pavo es bajo en grasa, ideal para sándwiches y ensaladas. Su precio es $8 por kilo.",
+          "Jamón de pavo: suave, delicioso y saludable. Precio: $8/kg.",
+          "¿Buscas jamón de pavo? Tenemos a $8 el kilo, fresco y de excelente calidad."
+        ]
+      },
+      {
+        "label": "Queso Llanero",
+        "keywords": [
+          "queso llanero", "precio queso llanero", "cuanto cuesta el queso llanero", "descripcion queso llanero",
+          "cuánto cuesta el queso llanero", "descripción queso llanero"
+        ],
+        "responses": [
+          "El queso llanero es semiduro, salado y perfecto para arepas. Precio: $7/kg.",
+          "Queso llanero: tradicional, fresco y venezolano. Lo tenemos a $7 el kilo.",
+          "¿Quieres queso llanero? $7 por kilo, calidad garantizada."
+        ]
+      },
+      {
+        "label": "Mortadela",
+        "keywords": [
+          "mortadela", "precio mortadela", "cuanto cuesta la mortadela", "descripcion mortadela",
+          "cuánto cuesta la mortadela", "descripción mortadela"
+        ],
+        "responses": [
+          "La mortadela es ideal para desayunos y meriendas. Precio: $4/kg.",
+          "Mortadela fresca y sabrosa, perfecta para sándwiches. Solo $4 el kilo.",
+          "¿Buscas mortadela? Tenemos a $4 el kilo, ¡aprovecha!"
+        ]
+      },
+      {
+        "label": "Queso de Mano",
+        "keywords": [
+          "queso de mano", "precio queso de mano", "cuanto cuesta el queso de mano", "descripcion queso de mano",
+          "cuánto cuesta el queso de mano", "descripción queso de mano"
+        ],
+        "responses": [
+          "El queso de mano es suave y cremoso, ideal para cachapas. Precio: $8/kg.",
+          "Queso de mano artesanal, fresco todos los días. $8 el kilo.",
+          "¿Te gusta el queso de mano? Lo tenemos a $8 por kilo."
+        ]
+      },
+      {
+        "label": "Salchichón",
+        "keywords": [
+          "salchichon", "precio salchichon", "cuanto cuesta el salchichon", "descripcion salchichon",
+          "salchichón", "precio salchichón", "cuánto cuesta el salchichón", "descripción salchichón"
+        ],
+        "responses": [
+          "El salchichón es perfecto para picar o para sándwiches. Precio: $5/kg.",
+          "Salchichón fresco, sabor tradicional. Solo $5 el kilo.",
+          "¿Quieres salchichón? $5 por kilo, calidad garantizada."
+        ]
+      },
+      {
+        "label": "Chorizo",
+        "keywords": [
+          "chorizo", "precio chorizo", "cuanto cuesta el chorizo", "descripcion chorizo",
+          "cuánto cuesta el chorizo", "descripción chorizo"
+        ],
+        "responses": [
+          "El chorizo es ideal para parrillas y arepas. Precio: $6/kg.",
+          "Chorizo artesanal, fresco y sabroso. $6 el kilo.",
+          "¿Buscas chorizo? Tenemos a $6 el kilo, ¡excelente para tus comidas!"
         ]
       }
     ],
     "default_responses": [
-      "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o seleccionar una opción?",
-      "No estoy seguro de cómo responder a eso. Intenta preguntar de otra manera o elige una opción.",
-      "Hmm, no tengo una respuesta para eso en este momento. ¿Hay algo más en lo que pueda ayudarte?"
+      "Lo siento, no entendí tu pregunta. ¿Podrías reformularla o seleccionar una opción? 🤔",
+      "No estoy seguro de cómo responder a eso. Intenta preguntar de otra manera o elige una opción. 🦃",
+      "Hmm, no tengo una respuesta para eso en este momento. ¿Hay algo más en lo que pueda ayudarte? 🧀",
+      "¿Podrías darme más detalles para poder ayudarte mejor?",
+      "No tengo información sobre eso, pero puedes preguntar por productos, precios, horarios y más."
     ]
   }
